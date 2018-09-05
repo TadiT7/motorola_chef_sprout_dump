@@ -1,0 +1,15 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Sun May 6 19:31:41 CDT 2018
+ro.bootimage.build.date.utc=1525653101
+ro.bootimage.build.fingerprint=motorola/chef_retail/chef_sprout:8.1.0/OPT28.53/db60:user/release-keys
+

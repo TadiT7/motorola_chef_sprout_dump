@@ -1,0 +1,6 @@
+#Using the format "packagename=1or2" to add one item
+#1(close), 2(open)
+#com.google.android.apps.photos=1
+com.motorola.ts.camera=2
+com.motorola.launcher3=2
+android.view.cts=2

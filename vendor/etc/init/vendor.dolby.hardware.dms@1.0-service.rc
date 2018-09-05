@@ -1,0 +1,14 @@
+service dms-hal-1-0 /vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
+    class hal
+    user media
+    group audio media
+    disabled
+
+on post-fs-data && property:ro.crypto.state=unencrypted
+    start dms-hal-1-0
+
+on property:vold.decrypt=trigger_restart_framework && property:ro.crypto.type=block && property:ro.crypto.state=encrypted
+    start dms-hal-1-0
+
+on post-fs-data && property:ro.crypto.type=file && property:ro.crypto.state=encrypted
+    start dms-hal-1-0

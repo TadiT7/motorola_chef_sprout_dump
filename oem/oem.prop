@@ -1,0 +1,9 @@
+#
+# OEM_BUILD_PROPERTIES
+#
+ro.build.version.incremental=db60
+ro.build.version.ci=1
+ro.mot.build.guid=1fec9cc23bc85dc
+ro.product.name=chef
+ro.mot.build.oem.product=chef
+ro.mot.build.customerid=retail

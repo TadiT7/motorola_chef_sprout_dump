@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.motorola.bettertogether">
+        <permission name="android.permission.UPDATE_APP_OPS_STATS" /> <!-- To enable write permission for SMS provider -->
+    </privapp-permissions>
+</permissions>
